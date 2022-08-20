@@ -26,7 +26,7 @@ export default function Contacts() {
             </button>
             <button className="inline-flex bg-black rounded-xl px-7 py-3 mb-2 
                           transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
-                    onClick={() => window.open('https://vk.com/igavgogav')} 
+                    onClick={() => window.open('https://t.me/kripochek9')} 
             >
               <img src='/tglogo.svg' alt='' className="h-10 w-10 mr-1"/>
               <span className="text-white ml-3 text-xl py-1">Telegram</span>
