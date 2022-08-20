@@ -7,7 +7,7 @@ export default function Navbar() {
         <div>
           <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
             <div className="container flex flex-wrap justify-between items-center mx-auto">
-              <a href="http://localhost:3000/" className="flex items-center">
+              <a href="https://dream-token.vercel.app/" className="flex items-center">
                   <img src='./logo.svg' className="mr-3 h-6 sm:h-12 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:fill-purple-600"/>
               </a>
               <div className="flex">
