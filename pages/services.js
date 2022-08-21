@@ -66,7 +66,7 @@ export default function Services() {
     const loadBalance = async () => { 
       const accounts = await web3Api.web3.listAccounts()
       const balance = await web3Api.contract.balanceOf(accounts[0])
-      balance = ethers.utils.formatUnits(balance, 18)
+      // balance = ethers.utils.formatUnits(balance, 18)
       // balance = ethers.utils.formatEther(balance)
       setBalance(balance.toString())
     }
